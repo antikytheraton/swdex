@@ -1,5 +1,7 @@
-# TODOs
-- Hacer una url de planetas
+# features
+- http://127.0.0.1:8000/characters
+- http://127.0.0.1:8000/planets
+- http://127.0.0.1:8000/starships
 
 # Getting started with django
 
