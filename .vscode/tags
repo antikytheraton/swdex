@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../swdex/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../swdex/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AppConfig	../Characters/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../swdex/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CharactersConfig	../Characters/apps.py	/^class CharactersConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../swdex/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	../swdex/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../swdex/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../swdex/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+MIDDLEWARE	../swdex/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+ROOT_URLCONF	../swdex/settings.py	/^ROOT_URLCONF = 'swdex.urls'$/;"	kind:variable	line:52
+SECRET_KEY	../swdex/settings.py	/^SECRET_KEY = '6a64x2w-udz6qj_ma)xoai2d%tnghwq(kd-zoyou8d%3u&l3()'$/;"	kind:variable	line:23
+STATIC_URL	../swdex/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+TEMPLATES	../swdex/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TIME_ZONE	../swdex/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+TestCase	../Characters/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../swdex/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_L10N	../swdex/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_TZ	../swdex/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+WSGI_APPLICATION	../swdex/settings.py	/^WSGI_APPLICATION = 'swdex.wsgi.application'$/;"	kind:variable	line:70
+__init__.py	../Characters/__init__.py	1;"	kind:file	line:1
+__init__.py	../Characters/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../swdex/__init__.py	1;"	kind:file	line:1
+admin	../Characters/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../swdex/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../Characters/admin.py	1;"	kind:file	line:1
+application	../swdex/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../Characters/apps.py	1;"	kind:file	line:1
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	../swdex/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../Characters/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../Characters/models.py	1;"	kind:file	line:1
+name	../Characters/apps.py	/^    name = 'Characters'$/;"	kind:variable	line:5
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../swdex/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../swdex/wsgi.py	/^import os$/;"	kind:namespace	line:10
+render	../Characters/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	../swdex/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../Characters/tests.py	1;"	kind:file	line:1
+url	../swdex/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	../swdex/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../swdex/urls.py	1;"	kind:file	line:1
+views.py	../Characters/views.py	1;"	kind:file	line:1
+wsgi.py	../swdex/wsgi.py	1;"	kind:file	line:1
