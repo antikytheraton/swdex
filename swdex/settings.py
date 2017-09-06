@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Characters', # Mi aplicacion de personajes
-    'Planets'
+    'Planets',
+    'Starships'
 ]
 
 MIDDLEWARE = [

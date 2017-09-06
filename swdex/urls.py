@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^characters/', include('Characters.urls')),
     url(r'^planets/', include('Planets.urls')),
+    url(r'^starships/', include('Starships.urls'))
 ]

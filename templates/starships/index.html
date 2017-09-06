@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %} Starships {% endblock  %}
+
+{% block content %}
+    {% if naves %}
+    <div class="row">
+        {% for nave in naves %}
+        
+        <div class="col s12 m3">
+        <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="{{nave.url_image}}">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">{{nave.name}}<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+        </div>
+    </div>
+
+        {% endfor %}
+    </div>
+    {% else %}
+        <h3>No hay naves</h3>
+    {% endif %}
+{% endblock  %}
+
