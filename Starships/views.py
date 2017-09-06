@@ -33,7 +33,7 @@ def index(request,pagina=1):
     req = requests.get("https://swapi.co/api/starships/?page={0}".format(pagina))
     if req.status_code == 200:
         starships = scrapper(req.json()['results'])
-        # print(starships[1])
+        print(starships[1])
     else:
         starships = []
     return render(request, 'starships/index.html',{'naves':starships})
