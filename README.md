@@ -3,7 +3,7 @@
 
 # Getting started with django
 
-- virtualenv week2
+- virtualenv env
 - source week2/bin/activate
 - pip install requests
 - pip freeze 
@@ -19,9 +19,9 @@
 
 ## Consumir StarWars API
 ### Archivos modificados
-
-- Characters/views.py
+- swdexsettings.py
 - swdex/urls.py
+- Characters/views.py
 - Characters/urls.py
 - templates/index.html
 
